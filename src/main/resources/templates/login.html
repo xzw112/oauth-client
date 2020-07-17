@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>登录</title>
+</head>
+<body>
+
+<form>
+    <input type="text" name="token" id="token"/>
+    <input name="r1" type="submit" onclick="test()"/>
+</form>
+
+<a href="/logout">8081退出</a>
+
+<!-- jQuery 3 -->
+<script th:src="@{/js/jquery/jquery.min.js}"></script>
+
+<script th:src="@{/js/login.js}"></script>
+
+</body>
+</html>
